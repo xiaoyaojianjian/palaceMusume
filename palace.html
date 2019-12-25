@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>导览-故宫博物院</title>
+    <link rel="stylesheet" href="palace.css">
+    <script src="palace.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div id="container1">
+        	<div class="logo">
+            	<img src="images03/博物馆.png" alt="">
+       	 	</div>
+       	 	<div class="nav_main">
+	            <ul id="nav1">
+	                <li id="navC1"><a href="index.html">首页</a></li>
+	                <li id="navC2"><a href="palace.html">导览</a></li>
+	                <li id="navC3"><a href="exhibition.html">展览</a></li>
+	                <li id="navC4"><a href="final.html">探索</a></li>
+	                <li id="navC5"><a href="cultureInovation.html">文创</a></li>
+	            </ul>
+       		</div>
+       		<div class="logOn">
+	            <ul id="clientInfo">
+	                <li id="navC5"><img id="client" src="images03/用户.png" alt=""></li>
+	                <li><a href="#">登录</a></li>
+	                <li>|</li>
+	                <li><a href="#">注册</a></li>
+	            </ul> 
+        	</div>    
+        </div>
+        <div class="nav_detail" display="none">
+            <ul>
+                <li><img src="images03/public-icon1.png" alt=""><a onclick="jump('#f1')">开放时间</a><img src="images03/public-icon2.png" alt=""></li>
+                <li><img src="images03/public-icon1.png" alt=""><a onclick="jump('#f2')">导览地图</a><img src="images03/public-icon2.png" alt=""></li>
+                <li><img src="images03/public-icon1.png" alt=""><a onclick="jump('#f3')">交通路线</a><img src="images03/public-icon2.png" alt=""></li>
+                <li><img src="images03/public-icon1.png" alt=""><a onclick="jump('#f4')">游览须知</a><img src="images03/public-icon2.png" alt=""></li>               
+            </ul>
+        </div>
+        <div class="nav_detail" display="none">
+            <ul>
+                <li><img src="images03/public-icon1.png" alt=""><a href="#">近期展览</a><img src="images03/public-icon2.png" alt=""></li>
+                <li><img src="images03/public-icon1.png" alt=""><a href="#">专馆</a><img src="images03/public-icon2.png" alt=""></li>
+                <li><img src="images03/public-icon1.png" alt=""><a href="#">原状陈列</a><img src="images03/public-icon2.png" alt=""></li>
+                <li><img src="images03/public-icon1.png" alt=""><a href="#">赴外展览</a><img src="images03/public-icon2.png" alt=""></li>               
+            </ul>
+        </div>
+        <div class="nav_detail" display="none">
+            <ul>
+                <li><img src="images03/public-icon1.png" alt=""><a href="#">建筑</a><img src="images03/public-icon2.png" alt=""></li>
+                <li><img src="images03/public-icon1.png" alt=""><a href="#">藏品</a><img src="images03/public-icon2.png" alt=""></li>
+                <li><img src="images03/public-icon1.png" alt=""><a href="#">古籍</a><img src="images03/public-icon2.png" alt=""></li>
+                <li><img src="images03/public-icon1.png" alt=""><a href="#">文物医院</a><img src="images03/public-icon2.png" alt=""></li>               
+            </ul>
+        </div>
+        <div class="nav_detail" display="none">
+            <ul>
+                <li><img src="images03/public-icon1.png" alt=""><a href="#">故宫出版</a><img src="images03/public-icon2.png" alt=""></li>
+                <li><img src="images03/public-icon1.png" alt=""><a href="#">文化产品</a><img src="images03/public-icon2.png" alt=""></li>
+                <li><img src="images03/public-icon1.png" alt=""><a href="#">故宫壁纸</a><img src="images03/public-icon2.png" alt=""></li>
+                <li><img src="images03/public-icon1.png" alt=""><a href="#">故宫APP</a><img src="images03/public-icon2.png" alt=""></li>               
+            </ul>
+        </div>
+    </div>
+    
+    <div class="all">
+        <div class="title1" >
+            <p>故宫之旅，即刻起航</p>
+            <img src="images03/public-icon4.png" class="img2">
+        </div>
+        <div class="title1Body">
+            <ul class="body1">
+                <li>
+                    <a href="#">
+                        <img src="images03/time.png">
+                        <p class="word1">【开放时间】</p>
+                        <p class="word2">让这场旅程更“准时”</p>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images03/ticket.png">
+                        <p class="word1">【在线订票】</p>
+                        <p class="word2">提前预定故宫门票</p>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images03/path.png">
+                        <p class="word1">【导览地图】</p>
+                        <p class="word2">为您量身推荐适合的游览路线</p>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images03/horse.png">
+                        <p class="word1">【交通路线】</p>
+                        <p class="word2">让您行程更便捷</p>
+                    </a>
+                   
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images03/serve.png">
+                        <p  class="word1">【票务服务】</p>
+                        <p class="word2">贴心的票务服务带你畅游故宫</p>
+                    </a>
+                    
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images03/inform.png">
+                        <p  class="word1">【游览须知】</p>
+                        <p class="word2">让您的游览更安全更舒心</p>
+                    </a>
+                    
+                </li>
+            </ul>
+            <ul class="body2">
+                <div>
+                    <img src="images03/public-icon1.png">
+                    <p class="one">开放公告</p>
+                    <img id="two" src="images03/public-icon2.png">
+                </div>
+                <li>
+                    <a href="#">关于故宫博物院暂停开放的公告</a>
+                    <p>根据工作需要和安排，故宫博物院于
+                        2019年9月21日至10月1日，暂停对社会开放。 给您参观带来...</p>
+                </li>
+                <li>
+                    <a href="#">关于故宫博物院临时调整开放时间的公告</a>
+                    <p>为配合国庆70周年庆祝活动第二次全流程演练
+                        ，接有关部门通知，故宫博物院于2019年9月14日、1...</p>
+                </li>
+                <li>
+                    <a href="#">关于故宫博物院端门数字馆暂停开放的公告</a>
+                    <p>为保证观众体验效果，故宫博物院端门数
+                        字馆于2019年7月2日（周二）起进行设备维护，暂停开...</p>
+                </li>
+
+            </ul>
+        </div>
+        <div class="title2" id="f1">
+            <p>开放时间</p>
+            <img src="images03/public-icon4.png" class="img3">
+        </div>
+        <div class="title2Body">
+            <p class="essay">
+                故宫博物院全年开放，开放时间按照淡、旺季会有所改变，遇到法定假期也会延长或缩短开放时间，
+                请随时注意本网站的公告！如果遇到重大活动或特殊情况，开放时间如有改变，故宫网站将特别发布公告。
+                除法定节假日外，故宫博物院全年实行周一全天闭馆的措施。
+            </p>
+            <div>
+                <img src="images03/open.png">
+            </div>
+        </div>
+        <div class="title3" id="f2">
+            <p>导览地图</p>
+            <img src="images03/public-icon4.png" class="img4">
+        </div>
+        <div class="title3Body">
+            <div class="body3">
+                <p>
+                    <img src="images03/list_dragon1 (1).png">
+                    <a href="#">推荐路线</a>
+                </p>
+                <ul class="body31"></ul>
+                    <li><a href="#">两小时游</a></li>
+                    <li><a href="#">半日游</a></li>
+                    <li><a href="#">一日游</a></li>
+                </ul>
+                
+                <p>
+                    <img src="images03/list_dragon1 (1).png">
+                    <a href="#">主题导览</a>
+                </p>
+                <ul  class="body32"></ul>
+                    <li><a href="#">宫廷建筑</a></li>
+                    <li><a href="#">宫廷历史</a></li>
+                    <li><a href="#">展馆专馆</a></li>
+
+                </ul>
+                
+                <p>
+                    <img src="images03/list_dragon1 (1).png">
+                    <a href="#">服务设施</a>
+                </p>
+                <ul class="body33">
+                    <li><a href="#"><img src="images03/icon1.png">餐饮</a></li>
+                    <li><a href="#"><img src="images03/icon3.png">广播</a></li>
+                    <li><a href="#"><img src="images03/icon4.png">医务</a></li>
+                    <li><a href="#"><img src="images03/icon5.png">售票处</a></li>
+                    <li><a href="#"><img src="images03/icon6.png">书店</a></li>
+                    <li><a href="#"><img src="images03/icon11.png">卫生间</a></li>
+                    <li><a href="#"><img src="images03/icon13.png">商店</a></li>
+                    <li><a href="#"><img src="images03/icon14.png">母婴室</a></li>
+                </ul>
+            </div>
+            <div class="body4">
+                <img src="images03/map2.png">
+            </div>
+        </div>
+        <div class="title4Body">
+            <img src="images03/QQ截图20191220160023.png">
+        </div>
+        <div class="title5" id="f3">
+            <p>交通路线</p>
+            <img src="images03/public-icon4.png" class="img5">
+        </div>
+        <div class="title5Body">
+            <div class="body5">
+                <img src="images03/gaode.png">
+            </div>
+            <div class="body6">
+                <div class="contain" id="contain">
+                    <div class="picture"><img src="./images03/door4.png"></div>
+                    <div class="picture"><img src="./images03/door1.png"></div>
+                    <div class="picture"><img src="./images03/door2.png"></div>
+                    <div class="picture"><img src="./images03/door3.png"></div>
+                    <div class="picture"><img src="./images03/door4.png"></div>
+                    <div class="picture"><img src="./images03/door1.png"></div>
+                </div>
+                <ul class="nav" id="nav">
+                    <li class="change">午门</li>
+                    <li>神武门</li>
+                    <li>东华门</li>
+                    <li>西华门</li>
+                </ul>
+            </div>
+            <div class="body62">
+                <p>请注意:</p>
+                <p>故宫博物院没有专用停车场，最近的公共停车场在东华门外、景山后街与北海南门，车位有限。
+                    建议观众朋友们搭乘公共交通车辆来故宫博物院参观。 </p>
+            </div>
+        </div>
+        <div class="title6" id="f4">
+            <p>游览须知</p>
+            <img src="images03/public-icon4.png" class="img6">
+        </div>
+        <div class="title6Body">
+            <ul>
+                <li>
+                    <b>北京故宫</b>
+                    <p>
+                        旧称紫禁城是<br>
+                        明清两代皇宫的遗址
+                    </p>
+                </li>
+                <li>
+                    <b>
+                        1961年
+                    </b>
+                    <p>
+                        经国务院批准<br>
+                        被定为全国重点文物保护单位
+                    </p>
+                </li>
+                <li>
+                    <b>1987年</b>
+                    <p>
+                        被联合国教科文组织列入<br>
+                        “世界文化遗产”名录
+                    </p>
+                </li>
+            </ul>
+            <p class="know">
+                自2011年7月2日起，故宫博物院实行自南向北单向参观路线：午门
+                （南门）只作为参观入口，观众一律从午门进入故宫；神武门（北门）只作为
+                参观出口，观众参观结束后可由神武门或东华门（东门）离开故宫。
+            </p>
+            <div class="list">
+                <ul>
+                    <li>
+                        <div class="image"><img src="images03/smoke.png"></div>
+                            <h2>您在故宫博物院内参观游览时请勿吸烟，并提醒他人不要吸烟</h2>
+                            <p>故宫是世界上现存最大的木结构宫殿建筑群，历史上曾经多次发生火灾。
+                                每个点燃的烟头都可能是对这片珍贵历史文化遗产的威胁。
+                            </p>
+                    </li>
+                    <li>
+                        <div class="image"><img src="images03/cuture.png"></div class="image">
+                        <h2>尊重文化遗产，保护文物古迹</h2>
+                        <p>请不要在古建筑和古树上留下您的大名，刻
+                            画涂写不仅不会使您英名永驻，反而遭到大家的鄙视。
+                        </p>
+                    </li>
+                    <li>
+                        <div class="image"><img src="images03/audience.png"></div>
+                        <h2>做文明观众</h2>
+                        <p>为不妨碍、影响他人参观，按照国际惯例在展厅请勿使用闪光灯和三脚架拍照
+                            。在我院与其他博物馆合作举办的展览以及特色商品店
+                            ，因有版权协议，不允许观众拍照展品，请注意警示标志并服从展厅工作人员的管理。
+                        </p>
+                    </li>
+                    <li>
+                        <div class="image"><img src="images03/horn.png"></div>
+                        <h2>如遇人群密集时，请听从工作人员的疏导，有序参观，不要拥挤</h2>
+                        <p>请不要轻信和接受社会散杂人员派发的各种广告和兜售的商品。严防上当受骗，并欢迎举报。
+                            故宫派出所电话：010－85007494、85007495、65131882
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="footContainer">
+        <div id="foot">
+            <p id="p1">网页访问量&nbsp;<span>3</span><span>1</span><span>4</span><span>1</span><span>5</span><span>9</span><span>2</span><span>6</span><span>5</span></p>
+            <p id="p2"><a href="#">网站地图&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="#">相关链接&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="#">影像授权&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="#">隐私政策&nbsp;&nbsp;&nbsp;&nbsp; </a><a href="#">版权声明&nbsp;&nbsp;&nbsp;&nbsp; </a><a href="#">常见问题&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="#">联系我们&nbsp;&nbsp;</a><a href="#"> 关于我们 </a></p>
+            <p id="p3">© 2001-现在故宫博物院&nbsp;&nbsp;&nbsp;&nbsp;京ICP备05067311号-1&nbsp;&nbsp;&nbsp;&nbsp;网站建设:&nbsp;&nbsp;北京分形科技</p>
+            <p id="p4">浏览建议</p>
+        </div>
+    </div>
+</body>
+<script>
+    function jump(arg){
+        location.hash = arg;
+    }
+</script>
+</html>
