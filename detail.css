@@ -1,0 +1,104 @@
+#all{
+    width: 1920px;
+    margin:0 auto;
+}
+#bodyContent{
+    width:1258px;
+    margin:0 auto;
+    /* position: relative; */
+}
+#bigAndSmall{
+    width: 1200px;
+    height: 400px;
+    margin-top:20px;
+    position: absolute;
+    top:200px;
+}
+#small{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    display:inline-block;
+    overflow: hidden;
+}
+#slider{
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    opacity: 0.5;
+    position:absolute;
+    top:0;
+    left:0;
+    z-index: 3;
+    display: none;
+    cursor: move;
+     filter:alpha(opacity=40);
+}
+#big{
+    margin-left: 6px;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    overflow:hidden;
+    position: relative;
+    position:absolute;
+    display: none;
+    z-index: 3;
+}
+#bigPic{
+    position:absolute;
+    top:0;
+    left:0;
+}
+#smallPic img{
+    padding:1px;
+    width: 95px;
+    cursor: pointer;
+}
+#bigpic{
+    margin-top:20px;
+    width: 415px;
+}
+
+.pb{
+background-color: #000;
+}
+#navigation{
+    margin-top:20px;
+    display: inline-block;
+    position: absolute;
+    top:60px;
+}
+#navigation a{
+    color:black
+}
+#navigation a:hover{
+    color:#9D7949;
+}
+#name{
+    position: absolute;
+    top:130px;
+    line-height: 50px;
+}
+#name img{
+    width: 25px;
+    vertical-align: middle;   
+}
+#info{
+    width: 460px;
+    height: 360px;
+    position: absolute;
+    top:220px;
+    left:900px;
+    background-color:#740613;
+    padding:20px;
+    text-align: center;
+
+}
+#info span{
+    display: block;
+    color:white;
+    line-height: 30px;
+    font-size: 18x;
+
+}
