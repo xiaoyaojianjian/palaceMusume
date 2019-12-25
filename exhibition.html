@@ -1,0 +1,304 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>展览 — 故宫博物院</title>
+	<link rel="stylesheet" href="exhibition.css">
+	<script src="exhibition.js"></script>
+</head>
+<body>
+	<div class="header">
+        <div id="container">
+        	<div class="logo">
+        		<a href="index.html"><img src="images02/故宫博物院.png" alt=""></a>
+       	 	</div>
+       	 	<div class="nav_main">
+	            <ul id="nav">
+	                <li id="navC1"><a href="index.html">首页</a></li>
+	                <li id="navC2"><a href="palace.html">导览</a></li>
+	                <li id="navC3"><a href="#">展览</a></li>
+	                <li id="navC4"><a href="final.html">探索</a></li>
+	                <li id="navC5"><a href="cultureInovation.html">文创</a></li>
+	            </ul>
+       		</div>
+       		<div class="logOn">
+	            <ul id="clientInfo">
+	                <li id="navC5"><img id="client" src="images02/用户3.png" alt=""></li>
+	                <li><a href="#">登录</a></li>
+	                <li>|</li>
+	                <li><a href="#">注册</a></li>
+	            </ul> 
+        	</div>    
+        </div>
+        <div class="nav_detail" display="none" >
+        	<div class="ulBox">
+                <ul>
+                    <li ><img src="images02/icon2.png" alt=""><a href="#">开放时间</a><img src="images02/icon3.png" alt=""></li>
+                    <li ><img src="images02/icon2.png" alt=""><a href="#">导览地图</a><img src="images02/icon3.png" alt=""></li>
+                    <li ><img src="images02/icon2.png" alt=""><a href="#">交通路线</a><img src="images02/icon3.png" alt=""></li>
+                    <li ><img src="images02/icon2.png" alt=""><a href="#">游览须知</a><img src="images02/icon3.png" alt=""></li>               
+                </ul>
+            </div>
+        </div>
+        <div class="nav_detail" display="none">
+        	<div class="ulBox">
+                <ul >
+                    <li ><img src="images02/icon2.png" alt=""><a onclick="jump('#f1')">近期展览</a><img src="images02/icon3.png" alt=""></li>
+                    <li ><img src="images02/icon2.png" alt=""><a onclick="jump('#f2')">专馆</a><img src="images02/icon3.png" alt=""></li>
+                    <li ><img src="images02/icon2.png" alt=""><a onclick="jump('#f3')">原状陈列</a><img src="images02/icon3.png" alt=""></li>             
+                </ul>
+            </div>
+        </div>
+        <div class="nav_detail" display="none">
+        	<div class="ulBox">
+                <ul >
+                    <li ><img src="images02/icon2.png" alt=""><a href="#">建筑</a><img src="images02/icon3.png" alt=""></li>
+                    <li ><img src="images02/icon2.png" alt=""><a href="#">藏品</a><img src="images02/icon3.png" alt=""></li>
+                    <li ><img src="images02/icon2.png" alt=""><a href="#">古籍</a><img src="images02/icon3.png" alt=""></li>
+                    <li ><img src="images02/icon2.png" alt=""><a href="#">文物医院</a><img src="images02/icon3.png" alt=""></li>               
+                </ul>
+            </div>
+        </div>
+        <div class="nav_detail" display="none">
+        	<div class="ulBox">
+                <ul >
+                    <li ><img src="images02/icon2.png" alt=""><a href="#">故宫出版</a><img src="images02/icon3.png" alt=""></li>
+                    <li ><img src="images02/icon2.png" alt=""><a href="#">文化产品</a><img src="images02/icon3.png" alt=""></li>
+                    <li ><img src="images02/icon2.png" alt=""><a href="#">故宫壁纸</a><img src="images02/icon3.png" alt=""></li>
+                    <li ><img src="images02/icon2.png" alt=""><a href="#">故宫APP</a><img src="images02/icon3.png" alt=""></li>               
+                </ul>
+            </div>
+        </div>
+	</div>
+
+	<div class="picshow">
+		<div class="picBox" id="picBox">
+			<div class="slider" id="slider">
+				<div class="slide"><a href="#"><img src="https://img.dpm.org.cn/Uploads/Picture/2019/11/12/s5dca488e43ed3.jpg" alt=""></a></div>
+				<div class="slide"><a href="#"><img src="https://img.dpm.org.cn/Uploads/Picture/2019/12/09/s5dee05294ce49.jpg" alt=""></a></div>
+				<div class="slide"><a href="#"><img src="https://img.dpm.org.cn/Uploads/Picture/2018/12/14/s5c135d5ac7826.jpg" alt=""></a></div>
+				<div class="slide"><a href="#"><img src="https://img.dpm.org.cn/Uploads/Picture/2019/11/12/s5dca488e43ed3.jpg" alt=""></a></div>
+				<div class="slide"><a href="#"><img src="https://img.dpm.org.cn/Uploads/Picture/2019/12/09/s5dee05294ce49.jpg" alt=""></a></div>
+			</div>
+			<span id="left"><</span>
+			<span id="right">></span>
+		</div>
+		<div class="picNav" id="nav1">
+			<ul>
+				<li class="active" style="background-image: url(images02/long2.png)"></li>
+				<li style="background-image: url(images02/long2.png)"></li>
+				<li style="background-image: url(images02/long2.png)"></li>
+			</ul>
+		</div>
+	</div>
+
+
+	<div class="recentShow" id="f1">
+		<div class="title">
+				<img src="images02/近期展览.png">
+		</div>
+		<div class="listBox">
+			<div class="table">
+				<table id="tab">
+					<tr>
+						<th width="960">展览名称</td>
+						<th width="322">展览地点</td>
+						<th width="176">展览时间</td>
+					</tr>
+					<tr>
+						<td width="960">
+							<a href="#">须弥福寿：当扎什伦布寺遇上紫禁城</a>
+							<span class="zc">展出</span>
+						</td>
+						<td width="322">午门展厅</td>
+						<td width="176">2019/12/10 - 2020/02/29</td>
+					</tr>
+					<tr>
+						<td width="960">
+							<a href="#">大圣遗音——钟粹宫古琴艺术展</a>
+							<span class="zc">展出</span>
+						</td>
+						<td width="322">钟粹宫展厅</td>
+						<td width="176">2019/11/29 - 2020/02/29</td>
+					</tr>
+					<tr>
+						<td width="960">
+							<a href="#">故事集：古建工程师的一甲子——于倬云诞辰百年纪念展</a>
+							<span class="zc">展出</span>
+						</td>
+						<td width="322">东华门展厅</td>
+						<td width="176">2018/12/15 - 2020/05/31</td>
+					</tr>
+					<tr>
+						<td width="960">
+							<a href="#">营缮之道——紫禁城建筑艺术展</a>
+							<span class="zc">展出</span>
+						</td>
+						<td width="322">东南角楼、銮仪卫、东华门</td>
+						<td width="176">常设</td>
+					</tr>
+					<tr>
+						<td width="960">
+							<a href="#">庆隆尊养——崇庆皇太后专题展</a>
+							<span class="zc">展出</span>
+						</td>
+						<td width="322">寿康宫展厅</td>
+						<td width="176">常设</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+
+	<div class="speShow" id="f2">
+		<div class="title">
+				<img src="images02/专馆.png">
+		</div>
+		<div class="speBox">
+			<div class="d">
+				<div class="d1">
+					<div class="dleft" id="dleft1">
+						<a href="#"><img src="images02/书画馆.jpg"></a>
+					</div>
+					<div class="dright">
+						<div class="sright">
+							<div class="word" id="word1" style="margin-top:0px">
+								<h2>书画馆</h2>
+								<p>
+									故宫博物院收藏有丰富的中国古代书画。其中既有晋唐宋元的稀世孤本，也有明清各个画派名家的代表作品，可以清晰、系统地反映中国古代书法与绘画艺术发展的脉络。为了感受经典，分享中国书画艺术的美轮美奂，展示中华传统文化的博大精深，我们将分批展出历代书画家的精品佳作，以供广大观众研究、欣赏。
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="d2">
+					<div class="dleft" id="dleft2">
+						<a href="#"><img src='images02/数字馆.jpg'></a>
+					</div>
+					<div class="dright">
+						<div class="sright">
+							<div class="word" id="word2"  style="margin-top:0px">
+								<h2>数字馆</h2>
+								<p>
+									端门数字展馆是在传统建筑中建设的全新数字形式展厅，与实体形式的展厅既有区别又密切联系，它以“数字建筑”、“数字文物”的形式，充分突出信息时代的技术优势，把院藏珍贵文物中较为脆弱难以展出的文物、或实物展览中难以表达的内容以数字形态呈现给观众，以新媒体互动手段满足传统文化的传播需求，同时又保障了文物安全，更可以激发观众对实体文物的兴趣。
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="d">
+				<div class="d1">
+					<div class="dleft" id="dleft3">
+						<a href="#"><img src="images02/珍宝馆.jpg"></a>
+					</div>
+					<div class="dright">
+						<div class="sright">
+							<div class="word" id="word3"  style="margin-top:0px">
+								<h2>珍宝馆</h2>
+								<p>
+									故宫博物院收藏的清代宫廷珍宝，大部分是出自紫禁城内掌管营造的机构——造办处奉旨制作的，还有一些则是逢年节庆典时地方官吏的朝贡品。这些珍宝大都选用金、银、玉、翠、珍珠及各种宝石等名贵材质，并征调各地著名匠师设计制造，竭尽巧思，不惜工本，一器之成往往经年累月，其工艺代表了当时的最高水平。在应用上，广泛涉及宫廷典章礼制、宗教祭祀、日用生活及休闲玩赏等各领域的活动，处处显示出皇权的至高无上与尊严，皇家的雍容华贵与典雅，具体细微地折射出那个时代的风貌。
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="d2">
+					<div class="dleft" id="dleft4">
+						<a href="#"><img src='images02/戏曲馆.jpg'></a>
+					</div>
+					<div class="dright">
+						<div class="sright">
+							<div class="word" id="word4"  style="margin-top:0px">
+								<h2>戏曲馆</h2>
+								<p>
+									满族定鼎中原，受汉文化影响，宫中文化生活嬗变。关外“篝火观舞”、“饮酒摔跤”的粗犷娱乐形式，被更有观赏价值的戏曲替代，并成为宫中娱乐和庆典活动的重要内容。本展览依据故宫现存大量戏曲文物，从演戏机构、戏装砌末、剧本、戏台、帝后赏戏景观等方面加以展示，并遴选当年入宫名伶唱片复原播放，使观众从视觉和听觉上全面感受清代宫廷戏曲活动。
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="display" id="f3">
+		<div class="title">
+			<img src="images02/原状陈列.png">
+		</div>
+		<div class="disBox">
+			<div class="item1">
+				<div class="i1">
+					<a target="blank" href="#" alt="太和殿">
+						<img src="https://img.dpm.org.cn/Uploads/Picture/2016/12/22/s585b38f00e48c.jpg">
+						<h2>太和殿</h2>
+					</a>
+				</div>
+				<div class="i2">
+					<div class="text">
+						<p>原状陈列是故宫博物院历史悠久、极具特色，且深受广大观众喜爱的展览类型。原状宫殿中的陈设都是严格遵循历史档案记载去选择与布置，力求恢复历史原貌，让观众能够真切地感受到厚重的历史文化氛围。这些精美的文物藏品与历尽沧桑的古代建筑一起构成和谐统一的整体，蕴含着丰富的历史信息和文化内涵，向世人形象地展示宫廷文化。</p>
+						<div class="icon" style="background-image:url(https://img.dpm.org.cn/Uploads/Picture/2016/12/16/s58537e20b272a.png)"></div>
+					</div>
+				</div>
+				<div class="i3">
+					<div class="il">
+						<a target="blank" href="#" alt="中和殿">
+							<img src="images02/中和殿.jpg">
+							<h2>中和殿</h2>
+						</a>
+					</div>
+					<div class="ir">
+						<a target="blank" href="#" alt="交泰殿">
+							<img src="images02/交泰殿.jpg">
+							<h2>交泰殿</h2>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="item2">
+				<div class="small">
+					<a target="blank" href="#" alt="寿康宫">
+						<img src="images02/寿康宫.jpg">
+						<h2>寿康宫</h2>
+					</a>
+				</div>
+				<div class="small">
+					<a target="blank" href="#" alt="养心殿">
+						<img src="images02/养心殿.jpg">
+						<h2>养心殿</h2>
+					</a>
+				</div>
+				<div class="small">
+					<a target="blank" href="#" alt="乾清宫">
+						<img src="images02/乾清宫.jpg">
+						<h2>乾清宫</h2>
+					</a>
+				</div>
+				<div class="small">
+					<a target="blank" href="#" alt="保和殿">
+						<img src="images02/保和殿.jpg">
+						<h2>保和殿</h2>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footContainer">
+		<div class="footer">
+	        <div id="foot">
+	            <p id="p1">网页访问量&nbsp;<span>3</span><span>1</span><span>4</span><span>1</span><span>5</span><span>9</span><span>2</span><span>6</span><span>5</span></p>
+	            <p id="p2"><a href="#">网站地图&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="#">相关链接&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="#">影像授权&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="#">隐私政策&nbsp;&nbsp;&nbsp;&nbsp; </a><a href="#">版权声明&nbsp;&nbsp;&nbsp;&nbsp; </a><a href="#">常见问题&nbsp;&nbsp;&nbsp;&nbsp;</a><a href="#">联系我们&nbsp;&nbsp;</a><a href="#"> 关于我们 </a></p>
+	            <p id="p3">© 2001-现在故宫博物院&nbsp;&nbsp;&nbsp;&nbsp;京ICP备05067311号-1&nbsp;&nbsp;&nbsp;&nbsp;网站建设:&nbsp;&nbsp;北京分形科技</p>
+	            <p id="p4">浏览建议</p>
+	    	</div>
+   		</div>
+    </div>
+
+</body>
+<script>
+	function jump(arg){
+		location.hash = arg;
+	}
+</script>
+</html>
